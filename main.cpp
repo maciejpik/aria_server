@@ -39,6 +39,9 @@ int main(int argc, char **argv)
     Aria::init();
     ArVideo::init();
 
+//    Turn off normal Aria logging
+    ArLog::setLogLevel( ArLog::Terse );
+
 //    Manage passed parameters and specify camera on Pioneer device (hardcoded)
     ArArgumentParser parser( &argc, argv);
     parser.addDefaultArgument("-ptzType vcc50i -videoType pxc");

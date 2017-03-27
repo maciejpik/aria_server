@@ -34,12 +34,6 @@
 			<Add directory="/home/m/Pulpit/Aria/lib" />
 		</Linker>
 		<Unit filename="main.cpp" />
-		<Unit filename="server_operator.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="server_operator.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
 		<Extensions>
 			<envvars />
 			<code_completion />
