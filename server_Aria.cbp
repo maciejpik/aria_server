@@ -16,22 +16,21 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="Aria" />
 				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
-			<Add directory="/home/m/Pulpit/Aria/include" />
-			<Add directory="/home/m/Pulpit/Aria/ArNetworking/include" />
-			<Add directory="/home/m/Pulpit/ArVideo/include" />
+			<Add directory="/usr/local/Aria/include" />
+			<Add directory="/usr/local/Aria/ArNetworking/include" />
+			<Add directory="/usr/local/Aria/ArVideo/include" />
 		</Compiler>
 		<Linker>
 			<Add library="Aria" />
 			<Add library="ArNetworking" />
 			<Add library="ArVideo" />
-			<Add directory="/home/m/Pulpit/Aria/lib" />
+			<Add directory="/usr/local/Aria/lib" />
 		</Linker>
 		<Unit filename="main.cpp" />
 		<Extensions>
